@@ -40,3 +40,17 @@ let append= (data)=>{
    
 }
 
+
+// sort by price
+
+
+let sort=async()=>{
+    let sortby= document.getElementById("sortby").value;
+    console.log(sortby)
+    let res= await fetch(`${url}?_sort=price&_order=${sortby}`)
+    res= await res.json()
+    console.log(res)
+    
+}
+
+

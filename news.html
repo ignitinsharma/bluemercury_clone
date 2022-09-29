@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Arrivals|bluemercury</title>
     <link rel="stylesheet" href="./style/new.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    
 </head>
 <body>
     <div id="main">
@@ -70,7 +70,12 @@
                 <div id="collectiontitle">
                     <p id="title">NEW ARRIVALS</p>
                 </div>
-                <div id="sort"></div>
+                <div id="sort"><h2>SORT BY</h2>
+                <select name="Sort" id="sortby" onchange="sort()">
+                    <option value="Featured">Featured</option>
+                    <option value="desc" id="htl" onclick="sorthtl()">Price,High to Low</option>
+                    <option value="asen" id="lth">Price, Low to High</option>
+                </select></div>
               
             </div>
             <hr/>
