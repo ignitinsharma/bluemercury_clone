@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Arrivals|bluemercury</title>
     <link rel="stylesheet" href="./style/new.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    
 </head>
 <body>
     <div id="main">
@@ -18,22 +18,32 @@
             </div>
             <hr/>
             <div id="filter">
-                <div id=""><a href="">Bath & Body</a><br/>
-                    <a href="">Fragrance</a><br/>
-                    <a href="">Hair Care</a> <br/>
-                    <a href="">Makeup</a><br/>
-                    <a href="">Skin Care</a><br/>
-                    <a href="">Tool & Accessories</a><br/>
+                <div id="atri">
+                    <div class="atri"><a href="">Bath & Body</a><br/></div>
+                    <div class="atri"><a href="">Fragrance</a><br/></div>
+                    <div class="atri"><a href="">Hair Care</a> <br/></div>
+                    <div class="atri"><a href="">Makeup</a><br/></div>
+                    <div class="atri"><a href="">Skin Care</a><br/></div>
+                    <div class="atri"><a href="">Tool & Accessories</a><br/></div>  
                 </div>
-                <div id="filterHeader"><h2>FILTER NEW ARRIVALS BY</h2></div>
+                <div id="filterHeader"><h3>FILTER NEW ARRIVALS BY</h3></div>
                 <div>
                   <div class="filterCategoryHeader">
+                    <div> 
                       <h3 id="filterType">Type</h3>
-                      <div id="TotalFilter"></div>
-                  </div>
+                        <div id="TotalFilter"></div>
+                    </div>
+                        <div id="filterButton" onclick="filterb()"></div>
+                    </div>
+                    <div id="filtercontent"></div>
+                  
+
                   <div class="filterCategoryHeader">
-                    <h3 id="filterBrand">Brand</h3>
-                    <div id="TotalFilter"></div>
+                      <div><h3 id="filterBrand">Brand</h3>
+                        <div id="TotalFilter"></div></div>
+                        <div></div>
+                        
+                    
                 </div>
                 <div class="filterCategoryHeader">
                     <h3 id="filterBenefit">Benefit</h3>
@@ -70,11 +80,17 @@
                 <div id="collectiontitle">
                     <p id="title">NEW ARRIVALS</p>
                 </div>
-                <div id="sort"></div>
+                <div id="sort"><p>SORT BY</p>
+                <select name="Sort" id="sortby" onchange="sort()">
+                    <option value="Featured">Featured</option>
+                    <option value="desc" id="htl" onclick="sorthtl()">Price,High to Low</option>
+                    <option value="asen" id="lth">Price, Low to High</option>
+                </select></div>
               
             </div>
             <hr/>
             <div id="collectionData"></div>
+            <div id="pagination"></div>
         </div>
     </div>
     
