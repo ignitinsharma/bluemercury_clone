@@ -1,0 +1,22 @@
+h1,p{
+    color: #12284C;
+    text-align: center;
+    font-family: sans-serif;
+}
+#input_fields{
+    width: 30%;
+    display: grid;
+    margin: auto;
+    gap: 12px;
+}
+input,button{
+    padding: 12px 14px;
+}
+p{
+    color: #657a9b;
+}
+button{
+    background-color: #12284C;
+    color: white;
+    border: transparent;
+}
