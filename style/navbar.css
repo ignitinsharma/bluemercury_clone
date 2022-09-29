@@ -1,51 +1,341 @@
-
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-#nav{
-    width: 100%;
-    height: 8rem;
-    border: 1px solid black;
-    position: fixed;
-    background-color: aliceblue;
-   
+#nav {
+  width: 100%;
+  height: 7rem;
+  position: fixed;
+  background-color: FFFFFF;
+  transition: 0.4s;
+  top: 0;
+  z-index: 99;
+  padding: 0.4rem 1rem;
 }
 
-#logo{
-    width: 100%;
-    height: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+#logo {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#logoimg{
-    width: 15rem;
- 
+#logoimg {
+  width: 15rem;
 }
 
-#navbar{
-    margin: auto;
-    width: 75%;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0rem 3rem;
-  
+#navbar {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0rem 3rem;
+  padding-top: 1rem;
+  position: relative;
 }
 
-#navbar a{
-    text-decoration: none;
+#navbar li {
+  display: inline;
+  text-decoration: none;
+  padding: 2rem 2rem;
+  position: relative;
 }
 
-#navbar a:hover {
-    font-weight: 500;
+#navbar a {
+  text-decoration: none;
 }
 
+#navbar ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #12284c;
+  font-size: 0.8889em;
+  text-decoration: none;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 0.125em;
+  transition: border-bottom-color 50ms linear 0s;
+}
 
-#bodymain{
-    height: 100rem;
-    background-color: aqua;
+#navbar ul li a:hover {
+  background-color: rgba(255, 245, 255, 0.2);
+  border-bottom-color: #12284c;
+  transition: all 0.5s;
+}
+
+/* ================ Shop ====================== */
+
+#shopdropdown {
+  display: none;
+}
+
+#navbar ul li:hover #shopdropdown {
+  position: absolute;
+  display: flex;
+  width: max-content;
+  text-align: left;
+  justify-content: center;
+  gap: 1rem;
+  height: max-content;
+  margin-top: 1rem;
+  opacity: 1;
+  padding: 0rem 2rem;
+  z-index: 1;
+  background-color: #ffffff;
+  left: -2.5rem;
+}
+
+#shopdropdown ul li a {
+  padding: 0rem 0rem;
+  color: #6c7a90;
+  margin-top: -1rem;
+}
+
+#shopdropdown #imgul {
+  padding: 1rem 1rem;
+}
+
+#shopdropdown ul li {
+  padding: 1rem 2rem;
+  width: auto;
+  display: block;
+}
+
+/* ========================  New ========================== */
+
+#newdropdown {
+  display: none;
+}
+
+#navbar ul li:hover #newdropdown {
+  position: absolute;
+  display: flex;
+  width: max-content;
+  text-align: left;
+  justify-content: center;
+  gap: 1rem;
+  height: max-content;
+  margin-top: 1rem;
+  opacity: 1;
+  padding: 0rem 2rem;
+  z-index: 1;
+  background-color: #ffffff;
+  left: -8rem;
+}
+
+#newdropdown ul li a {
+  padding: 0rem 0rem;
+  color: #6c7a90;
+  margin-top: -1rem;
+}
+
+#newdropdown #imgul {
+  padding: 1rem 1rem;
+}
+
+#newdropdown ul li {
+  padding: 1rem 2rem;
+  width: auto;
+  display: block;
+}
+
+/* =========== Brand ============ */
+
+#brandsdropdown {
+  display: none;
+}
+
+#navbar ul li:hover #brandsdropdown {
+  position: absolute;
+  display: flex;
+  width: max-content;
+  text-align: left;
+  justify-content: center;
+  gap: 1rem;
+  height: max-content;
+  margin-top: 1rem;
+  opacity: 1;
+  padding: 0rem 2rem;
+  z-index: 1;
+  background-color: #ffffff;
+  left: -15.5rem;
+}
+
+#brandsdropdown ul li a {
+  padding: 0rem 0rem;
+  color: #6c7a90;
+  margin-top: -1rem;
+}
+
+#brandsdropdown #imgul {
+  padding: 1rem 1rem;
+}
+
+#brandsdropdown ul li {
+  padding: 1rem 2rem;
+  width: auto;
+  display: block;
+}
+
+/* =========== Explore ============ */
+
+#exploredropdown {
+  display: none;
+}
+
+#navbar ul li:hover #exploredropdown {
+  position: absolute;
+  display: flex;
+  width: max-content;
+  text-align: left;
+  justify-content: center;
+  gap: 1rem;
+  height: max-content;
+  margin-top: 1rem;
+  opacity: 1;
+  padding: 0rem 2rem;
+  z-index: 1;
+  background-color: #ffffff;
+  left: -23rem;
+}
+
+#exploredropdown ul li a {
+  padding: 0rem 0rem;
+  color: #6c7a90;
+  margin-top: -1rem;
+}
+
+#exploredropdown #imgul {
+  padding: 1rem 1rem;
+}
+
+#exploredropdown ul li {
+  padding: 1rem 2rem;
+  width: auto;
+  display: block;
+}
+
+/* =========== Events ============ */
+
+#eventsedropdown {
+  display: none;
+}
+
+#navbar ul li:hover #eventsedropdown {
+  position: absolute;
+  display: flex;
+  width: max-content;
+  text-align: left;
+  justify-content: center;
+  gap: 1rem;
+  height: max-content;
+  margin-top: 1rem;
+  opacity: 1;
+  padding: 0rem 2rem;
+  z-index: 1;
+  background-color: #ffffff;
+  left: -24rem;
+}
+
+#eventsedropdown ul li a {
+  padding: 0rem 0rem;
+  color: #6c7a90;
+  margin-top: -1rem;
+}
+
+#eventsedropdown #imgul {
+  padding: 1rem 1rem;
+}
+
+#eventsedropdown ul li {
+  padding: 1rem 2rem;
+  width: auto;
+  display: block;
+}
+
+/* =========== Blue ============ */
+
+#bluedropdown {
+  display: none;
+}
+
+#navbar ul li:hover #bluedropdown {
+  position: absolute;
+  display: flex;
+  width: max-content;
+  text-align: left;
+  justify-content: center;
+  gap: 1rem;
+  height: max-content;
+  margin-top: 1rem;
+  opacity: 1;
+  padding: 0rem 2rem;
+  z-index: 1;
+  background-color: #ffffff;
+  left: -29rem;
+}
+
+#bluedropdown ul li a {
+  padding: 0rem 0rem;
+  color: #6c7a90;
+  margin-top: -1rem;
+}
+
+#bluedropdown #imgul {
+  padding: 1rem 1rem;
+}
+
+#bluedropdown ul li {
+  padding: 1rem 2rem;
+  width: auto;
+  display: block;
+}
+
+/* =========== Reboot ============ */
+
+#rebootdropdown {
+  display: none;
+}
+
+#navbar ul li:hover #rebootdropdown {
+  position: absolute;
+  display: flex;
+  width: max-content;
+  text-align: left;
+  justify-content: center;
+  gap: 1rem;
+  height: max-content;
+  margin-top: 1rem;
+  opacity: 1;
+  padding: 0rem 2rem;
+  z-index: 1;
+  background-color: #ffffff;
+  left: -50rem;
+}
+
+#rebootdropdown ul li a {
+  padding: 0rem 0rem;
+  color: #6c7a90;
+  margin-top: -1rem;
+}
+
+#rebootdropdown #imgul {
+  padding: 1rem 1rem;
+}
+
+#rebootdropdown ul li {
+  padding: 1rem 2rem;
+  width: auto;
+  display: block;
+}
+
+/* ========================================== */
+
+body {
+  height: 100rem;
+  background-color: #ffffff;
 }
