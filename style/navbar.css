@@ -56,7 +56,7 @@
   text-decoration: none;
   font-weight: normal;
   text-transform: uppercase;
-  border-bottom: 3px solid transparent;
+  border-bottom: 1.8px solid transparent;
   padding-bottom: 0.125em;
   transition: border-bottom-color 50ms linear 0s;
 }
@@ -81,12 +81,13 @@
   justify-content: center;
   gap: 1rem;
   height: max-content;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   opacity: 1;
   padding: 0rem 2rem;
   z-index: 1;
   background-color: #ffffff;
   left: -2.5rem;
+
 }
 
 #shopdropdown ul li a {
@@ -103,6 +104,7 @@
   padding: 1rem 2rem;
   width: auto;
   display: block;
+  margin-top: -1rem;
 }
 
 /* ========================  New ========================== */
@@ -119,7 +121,7 @@
   justify-content: center;
   gap: 1rem;
   height: max-content;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   opacity: 1;
   padding: 0rem 2rem;
   z-index: 1;
@@ -141,6 +143,7 @@
   padding: 1rem 2rem;
   width: auto;
   display: block;
+  margin-top: -1rem;
 }
 
 /* =========== Brand ============ */
@@ -157,7 +160,7 @@
   justify-content: center;
   gap: 1rem;
   height: max-content;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   opacity: 1;
   padding: 0rem 2rem;
   z-index: 1;
@@ -179,6 +182,7 @@
   padding: 1rem 2rem;
   width: auto;
   display: block;
+  margin-top: -1rem;
 }
 
 /* =========== Explore ============ */
@@ -195,7 +199,7 @@
   justify-content: center;
   gap: 1rem;
   height: max-content;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   opacity: 1;
   padding: 0rem 2rem;
   z-index: 1;
@@ -217,6 +221,7 @@
   padding: 1rem 2rem;
   width: auto;
   display: block;
+  margin-top: -1rem;
 }
 
 /* =========== Events ============ */
@@ -233,7 +238,7 @@
   justify-content: center;
   gap: 1rem;
   height: max-content;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   opacity: 1;
   padding: 0rem 2rem;
   z-index: 1;
@@ -255,6 +260,7 @@
   padding: 1rem 2rem;
   width: auto;
   display: block;
+  margin-top: -1rem;
 }
 
 /* =========== Blue ============ */
@@ -271,7 +277,7 @@
   justify-content: center;
   gap: 1rem;
   height: max-content;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   opacity: 1;
   padding: 0rem 2rem;
   z-index: 1;
@@ -293,6 +299,7 @@
   padding: 1rem 2rem;
   width: auto;
   display: block;
+  margin-top: -1rem;
 }
 
 /* =========== Reboot ============ */
@@ -309,7 +316,7 @@
   justify-content: center;
   gap: 1rem;
   height: max-content;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   opacity: 1;
   padding: 0rem 2rem;
   z-index: 1;
@@ -331,6 +338,7 @@
   padding: 1rem 2rem;
   width: auto;
   display: block;
+  margin-top: -1rem;
 }
 
 /* ========================================== */
