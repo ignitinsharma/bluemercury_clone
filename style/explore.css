@@ -1,0 +1,20 @@
+#explore_content,.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+#explore_content{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(248, 181, 55);
+}
+#explore_content img{
+    height: 487px;
+    width: 515px;
+
+}
