@@ -126,7 +126,7 @@
   padding: 0rem 2rem;
   z-index: 1;
   background-color: #ffffff;
-  left: -8rem;
+  left: -9rem;
 }
 
 #newdropdown ul li a {
@@ -339,6 +339,7 @@
   width: auto;
   display: block;
   margin-top: -1rem;
+
 }
 
 /* ========================================== */
