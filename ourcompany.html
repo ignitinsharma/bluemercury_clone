@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Company</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/ourcompant.css">
+    <link rel="stylesheet" href="./style/footer.css">
+</head>
+<body>
+
+    <div id="nav"></div>
+    <div id="line">
+        <p>Free sample with Orders</p>
+    </div>
+    <div id="maind">
+        <div id="maindiv">
+            <p id="heading" style="font-size: 2rem; font-weight: 600;">Our Company</p>
+            <img id="roundimg" src="https://cdn.shopify.com/s/files/1/1265/7867/files/about-contact_7b8b3635-1037-4c85-8ddd-ca229a52765c.jpg?454567" alt="">
+            <p id="para">When Bluemercury began in 1999, our mission was to create a welcoming space where everyone in our community could share in the power of beauty. We believe beauty is about celebrating the uniqueness in every individual and shining a light on the things that make them delightfully, wonderfully without equal. We’re also of the mind that labels are for soup cans, not skin serums, and that self-care isn’t gender-specific, but is color-blind.
+                <br>
+                <br>
+                Founded by Marla and Barry Beck in Washington DC’s Georgetown neighborhood, Bluemercury has grown to encompass more than 175 stores, located in neighborhoods across the country. Despite this explosive growth (and acquisition by Macy’s, Inc. in 2015), Bluemercury has maintained the intimate feel that made it such a success when it debuted.
+                <br>
+                <br>
+                Visitors to our stores can take advantage of the knowledge of our Beauty Experts, who are available to provide unbiased product recommendations, consult on topics such as makeup application or skin concerns and prepare free samples of just about anything we carry in store (including fragrance!). For those who prefer to shop online, our website offers an expanded range of brands, as well as exclusive educational content.
+                <br>
+                <br>
+                Regardless of where they make their purchase, all clients are eligible for our BlueRewards loyalty program. It’s free to join and allows members to earn Beauty Cards to spend at Bluemercury, plus birthday treats and other surprises.
+                <br>
+                <br>
+                As Bluemercury continues to evolve, we remain committed to our core belief that beauty is inclusive, not exclusive, and promise to provide a welcoming atmosphere that celebrates the power of beauty to uplift, empower and excite all of us.
+                </p>
+        </div>
+    </div>
+
+   
+    <div id="centerdiv">
+        <img id="cenimg" src="https://cdn.shopify.com/s/files/1/1265/7867/files/an-br-logo.svg?450033" alt="">
+    </div>
+
+    <div id="gridarea">
+        <div>
+            <p id="gridp">Diversity & inclusion</p>
+            <br>
+            <img id="gridimg" src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/diversity_and_inclusion.jpg?v=1640882631" alt="">
+            <br><br>
+            <a id="gridlearn" href="">Learn More</a>
+        </div>
+
+        <div>
+            <p id="gridp">Our beauty experts</p>
+            <br>
+            <img id="gridimg" src="https://cdn.shopify.com/s/files/1/1265/7867/files/about-us-beauty-experts.jpg?452539" alt="">
+            <br><br>
+            <a id="gridlearn" href="">Explore Career</a>
+        </div>
+
+        <div>
+            <p id="gridp">Our Brands</p>
+            <br>
+            <img id="gridimg" src="https://cdn.shopify.com/s/files/1/1265/7867/files/about-us-brands.jpg?452582" alt="">
+            <br><br>
+            <a id="gridlearn" href="">Shop Our brands</a>
+        </div>
+    </div>
+
+    <div id="Contact">
+        <button id="contbn">Contact Us</button>
+    </div>
+
+    <div id="footer"></div>
+</body>
+</html>
+
+<script type="module">
+   import {nav} from "./components/nav.js"
+    console.log(nav);
+    let navbox=document.getElementById('nav');
+    navbox.innerHTML=nav();
+
+    import {foot} from "./components/foot.js"
+    
+    let footer=document.getElementById('footer');
+    footer.innerHTML=foot();
+</script>
+

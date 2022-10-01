@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/event.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
+</head>
+<body>
+    <div id="nav"></div>
+    <div id="line">
+        <p>Free sample with Orders</p>
+    </div>
+
+    <h1 id="h1">BLUEMERCURY EXCLUSIVE EVENTS</h1>
+
+    <h2 id="h1sec">JOIN US IN STORE!</h2>
+
+    <div id="divmain">
+        <img id="imgmain" src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/store_events_navigation_1000x.jpg?v=1661983491" alt="">
+        <div id="maind">
+            <h1>Exclusive Events with Our Brands</h1>
+            <p style="color:#2D4060; font-size: 1.1rem;">Join us for exclusive in-store events with your favorite beauty brands. Select your local store to find out what's happening in your neighborhood.</p>
+            <a style="font-weight: 600; color:#2D4060" href=""><p>FIND EVENTS NEAR YOU!</p></a>
+        </div>
+    </div>
+
+    <div id="divmain">
+        <img id="imgmain" src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/bluemercury_events_nav_2_1000x.jpg?v=1654010487" alt="">
+        <div id="maind">
+            <h1>Complimentary Consultations!</h1>
+            <p style="color:#2D4060; font-size: 1.1rem;">Our Beauty Experts can show you quick makeup application tricks, how to revamp your skincare regimen and beauty trends worth trying. Come in or call to learn more.</p>
+            <a style="font-weight: 600; color:#2D4060" href=""><p>FIND YOUR STORE!</p></a>
+        </div>
+    </div>
+    
+    <h1 id="h1center">VIRTUAL EVENTS</h1>
+    <div id="divmain">
+        <img id="imgmain" src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/masterclass-bluemercury-navigation-feature_5e066328-d46a-4995-8d26-edc9f897cb16_1000x.jpg?v=1645819938" alt="">
+        <div id="maind">
+            <h1>BLUEMERCURY PRESENTS Masterclass</h1>
+            <p style="color:#2D4060; font-size: 1.1rem;">Join us for an exclusive online series of beauty Masterclasses. Listen, learn and engage with experts from our favorite brands as they give intimate insights into their brand, products, and techniques.</p>
+            <a style="font-weight: 600; color:#2D4060" href=""><p>FIND YOUR STORE!</p></a>
+        </div>
+    </div>
+    
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+    import {nav} from "./components/nav.js"
+     console.log(nav);
+     let navbox=document.getElementById('nav');
+     navbox.innerHTML=nav();
+ 
+     import {foot} from "./components/foot.js"
+     
+     let footer=document.getElementById('footer');
+     footer.innerHTML=foot();
+ </script>
