@@ -19,6 +19,7 @@ function checkData(){
             flagE=true
             if(el.password===d.password){
                 flagP=true
+                localStorage.setItem('nameofuser',JSON.stringify(el.first_name))
             }
         }
     })

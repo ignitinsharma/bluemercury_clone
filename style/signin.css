@@ -1,7 +1,12 @@
 h1,p{
     color: #12284C;
     text-align: center;
-    font-family: sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 #input_fields{
     width: 30%;
