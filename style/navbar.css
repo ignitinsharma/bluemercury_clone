@@ -7,8 +7,9 @@
 
 
 #topnav{
-  width: 100%;
+  width: 95%;
   height: 2rem;
+  margin: auto;
   z-index: 2;
   opacity: 100;
   position: fixed;
@@ -16,13 +17,15 @@
   margin-bottom: 3rem;
   padding: 0.5rem 1rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-top: -2rem;
 }
 
-#search{
-  margin-left: 40rem;
-}
+/* #search span{
+  margin-right: 1rem;
+} */
+
 
 #signup{
   text-decoration: none;
