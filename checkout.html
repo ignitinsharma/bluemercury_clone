@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./style/checkout.css">
+</head>
+<body>
+    <h1>Checkout Page</h1>
+    <div id="inputField">
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="text" id="address" placeholder="Enter address">
+        <input type="number" id="mobile" placeholder="Enter Mobile">
+        <button id="checkout">Checkout</button>
+    </div>
+</body>
+<script>
+    let checkout= document.getElementById('checkout')
+    checkout.onclick=()=>{
+        let name= document.getElementById('name').value
+        alert(`${name}, Your order has been placed `)
+    }
+</script>
+</html>

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#inputField{
+    display: grid;
+    width: 30%;
+    margin: auto;
+    gap: 12px;
+    font-size: 20px;
+    position: relative;
+    top: 30%;
+    /* left: 50%; */
+}
+
+input,button{
+    font-size: 20px;
+    padding: 3px;
+}
+
+button{
+    color: white;
+    background-color: #12284C;
+    border: none;
+    width: 150px;
+    margin: auto;
+}
