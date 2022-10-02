@@ -12,8 +12,8 @@ let cart_item= JSON.parse(localStorage.getItem('cart_item'))||[]
 let container= document.getElementById('container')
 
 let getData =async()=>{
-    let res =await fetch(`https://stormy-scrubland-12904.herokuapp.com/api/products`)
-    res= await res.json()
+    // let res =await fetch(`https://stormy-scrubland-12904.herokuapp.com/api/products`)
+    // res= await res.json()
     
     renderDom(cart_item)
 }
@@ -133,4 +133,8 @@ function deleteData(id){
         document.getElementById('msg').innerText= `(${newdata.length} items)`
     }
     
+}
+let checkout= document.getElementById('checkout')
+checkout.onclick=()=>{
+    window.location.href="./checkout.html"
 }
