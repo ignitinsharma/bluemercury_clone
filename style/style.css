@@ -1,7 +1,10 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    padding: 0px;
+    margin-top: 10rem;
   }
+  
   
   .wrapper {
     width: 100%;
@@ -77,7 +80,7 @@ h2.s1{
 h1.s1{
     color: #fff;
     letter-spacing: 3px;
-    line-height: 10px;
+    /* line-height: 10px; */
     font-size: 45px;
     font-family: "Product Sans",Arial,Helvetica,sans-serif;  
     cursor: pointer;
@@ -104,8 +107,8 @@ h2.s2{
     color: rgb(78, 167, 78);
     font-family: "Product Sans",Arial,Helvetica,sans-serif;
     font-size: 22px;
-    position: relative;
-    top:40px;
+    /* position: relative; */
+    /* top:40px; */
 }
 h1.s2{
     color: rgb(27, 148, 27);
@@ -134,8 +137,8 @@ h2.s3{
     color:rgb(17, 17, 49);
     font-family: "Product Sans",Arial,Helvetica,sans-serif;
     font-size: 22px;
-    position: relative;
-    top:40px;
+    /* position: relative; */
+    /* top:40px; */
 }
 h1.s3{
     color:rgb(11, 11, 45);
@@ -148,16 +151,16 @@ p.s3{
     font-family: "Product Sans",Arial,Helvetica,sans-serif;
     font-size: 26px;
     line-height: 32px;
-    position: relative;
-    bottom:20px;
+    /* position: relative; */
+    /* bottom:20px; */
     font-weight:lighter;  
 }
 a.s3{
     color: #565656;
     font-family: "Product Sans",Arial,Helvetica,sans-serif;
     font-size: 18px;
-    position: relative;
-    bottom:22px;
+    /* position: relative; */
+    /* bottom:22px; */
     font-weight:lighter;  
 }
 
@@ -181,15 +184,15 @@ p.s4{
     font-family: "Product Sans",Arial,Helvetica,sans-serif;
     font-size: 22px;
     line-height: 32px;
-    position: relative;
-    bottom:20px;
+    /* position: relative; */
+    /* bottom:20px; */
 }
 a.s4{
     color: #fff;
     font-family: "Product Sans",Arial,Helvetica,sans-serif;
     font-size: 18px;
-    position: relative;
-    bottom:22px;
+    /* position: relative; */
+    /* bottom:22px; */
     font-weight:inherit; 
 }
 
@@ -210,8 +213,8 @@ h2.s50{
     color:rgb(19, 19, 95);
     font-size: 28px;
     text-align: center;
-    position: relative;
-    top:18px;
+    /* position: relative; */
+    /* top:18px; */
 }
 h2.s52{
     font-family: "Product Sans",Arial,Helvetica,sans-serif;
@@ -219,8 +222,8 @@ h2.s52{
     text-align: center;
     color:#7a7777;
     font-weight:lighter; 
-    position: relative;
-    top:36px;
+    /* position: relative; */
+    /* top:36px; */
   
 }
 h2.s51{
@@ -234,11 +237,11 @@ h2.s51{
 h3.s5{
     font-family: "Product Sans",Arial,Helvetica,sans-serif;
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
     color:#7a7777;
     font-weight:lighter;
-    position: relative;
-    top:42px;
+    /* position: relative; */
+    /* top:42px; */
   
 }
 p.s5{
@@ -261,8 +264,8 @@ h1#t1{
     text-align: center;
     color:rgb(23, 23, 111);
     font-weight: lighter;
-    position: relative;
-    top:50px;
+    /* position: relative; */
+    /* top:50px; */
 }
 
 
@@ -401,8 +404,8 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     color:#4b4a4a;
-    position: relative;
-    left:150px;
+    /* position: relative; */
+    /* left:150px; */
     line-height: 5px;
 }
 #box421>p{
@@ -419,8 +422,8 @@ img{
     text-align: center;
     font-weight: lighter;
     color:rgb(18, 18, 97);
-    position: relative;
-    top:50px;
+    /* position: relative; */
+    /* top:50px; */
 }
 
 /* slider 2 */
