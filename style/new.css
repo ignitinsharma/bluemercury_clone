@@ -32,6 +32,7 @@
     gap: 50px;
     width: 100%;
     margin: 50px 0px ;
+    /* border: 1px solid red; */
 }
 img{
    
@@ -91,6 +92,15 @@ img{
     margin-bottom: 60px;
     text-align: center;
     width: 200px;
+   
+}
+.heart{
+    display: flex;
+    justify-content: space-between;
+}
+.heart img{
+    width: 40px;
+    height: 40px;
 }
 
 /* sideBar css */
@@ -131,4 +141,17 @@ a{
     font-size: 14.5px;
     padding: 10px 0px 20px 0px;
     border-bottom: 1px solid #8996aa ;
+}
+
+#pagination button{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    margin-right: 40px;
+}
+#pagination{
+    text-align: center;
+}
+#pagination hr{
+    margin: 10px 30px;
 }
