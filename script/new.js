@@ -18,7 +18,7 @@ let append= (data)=>{
     let collectionData= document.getElementById("collectionData");
     collectionData.innerHTML=null;
 
-    data.forEach(({badge,image,brand,title,price})=>{
+    data.forEach(({badge,image,brand,title,price,id})=>{
         let div= document.createElement("div");
         let div1= document.createElement("div");
    
@@ -31,6 +31,10 @@ let append= (data)=>{
         let brek= document.createElement("br");
 
         div.className="product";
+        div.onclick=()=>{
+            linkCart(id);
+      
+        }
         div1.className="heart"
         b.className="badge";
         t.className="title";
@@ -170,4 +174,19 @@ let filterType=()=>{
 
     type_main.append(type1,type2)
     filterMenu(type_main);
+}
+
+// LINk CART========>
+
+async function linkCart(index){
+
+    let res= await fetch(`${url}?id=${index}`)
+    res= await res.json();
+    let data= res[0];
+    let cartData = JSON.parse(localStorage.getItem("cart_item")) || [];
+    cartData.push(data);
+    
+    localStorage.setItem("cart_item",JSON.stringify(cartData))
+    console.log(cartData)
+
 }
