@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROUTINE REBOOT</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <link rel="stylesheet" href="./style/routin.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <div id="nav"></div>
     <div id="top">
         <div>
             <img src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/routine-reboot-center-subheading_8d5762c2-e291-4224-a755-9274a53aa9ea.svg?v=1658196511" alt="" />
@@ -153,4 +161,15 @@
     </div>
 </body>
 </html>
-<script src="./zzzzroutin.js"></script>
+
+<script type="module">
+    import {nav} from "./components/nav.js"
+     console.log(nav);
+     let navbox=document.getElementById('nav');
+     navbox.innerHTML=nav();
+ 
+     import {foot} from "./components/foot.js"
+     
+     let footer=document.getElementById('footer');
+     footer.innerHTML=foot();
+ </script>

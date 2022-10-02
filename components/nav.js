@@ -1,11 +1,22 @@
 function nav(){
     return `
-    <div id="nav">
+    <div id="topnav">
+    <div>
+      <span><i class="fa fa-map-marker" style="font-size:20px ;color: #12284c"> <span style="font-size:12px ;color: #12284c">STORE AND SPA LOCATION</span></i></span>
+    </div>
+    <div id="search">
+      <span> <i class="fa fa-heart" style="font-size:20px ;color: #12284c"><span  style="font-size:15px ;color: #12284c">Wishlist</span></i></span>
+      <span> <i class="fa fa-search" style="font-size:20px;color: #12284c"><span  style="font-size:15px ;color: #12284c">SEARCH</span></i></span>
+      <span> <i class='fa fa-user' style="font-size:20px;color: #12284c"><span  style="font-size:15px ;color: #12284c"><a id="signup" href="./signin.html"> SIGN IN/UP</a></span></i></span>
+      <span> <i class='fa fa-briefcase' style="font-size:20px;color: #12284c"><span  style="font-size:15px ;color: #12284c">BAG</span></i></span>
+    </div>
+  </div>
+  <div id="nav">
     <div id="logo"><img id="logoimg" src="./media/logo.png" alt="" /></div>
     <div id="navbar">
       <ul>
         <li>
-          <a id="dropanchor" href="">SHOP</a>
+          <a id="dropanchor" href="./index.html">SHOP</a>
           <div id="shopdropdown">
             <ul>
               <li>
@@ -13,7 +24,7 @@ function nav(){
                   >SKINCARE</a
                 >
               </li>
-              <li><a href="">MAKE UP</a></li>
+              <li><a href="#">MAKE UP</a></li>
               <li><a href="">HAIR</a></li>
               <li><a href="">BATH & BODY</a></li>
               <li><a href="">FRAGRANCE</a></li>
@@ -224,7 +235,7 @@ MORE -->
 
         <!-- ============== EVENTS ================= -->
         <li>
-          <a href="">EVENTS</a>
+          <a href="./event.html">EVENTS</a>
           <div id="eventsedropdown">
             <ul id="imgul">
               <img
@@ -330,7 +341,6 @@ MORE -->
       </ul>
     </div>
   </div>
-
 
     `
 }

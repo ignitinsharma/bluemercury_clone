@@ -1,7 +1,10 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    padding: 0px;
+    margin-top: 10rem;
   }
+  
   
   .wrapper {
     width: 100%;
