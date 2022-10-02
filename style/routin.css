@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(254, 237, 240)
+}
+#top{
+    width:37%;
+    height:auto;
+    margin:auto;
+    display: grid;
+    grid-template-rows: reprat(3,1fr);
+ 
+}
+img{
+    width:100%;
+    height:100%;
+}
+#top>div{
+    height:auto;
+    
+}
+#top>div>p{
+    text-align: center;
+    color:#313030;
+    font-family: 'Quicksand', sans-serif;
+    font-size:18px;
+    line-height: 26px;
+    position: relative;
+    top:20%
+}
+
+ hr{
+    position: relative;
+    bottom:5px;
+       
+ } 
+ #box2>h1{
+     font-size:58px;
+     color:#140c43;
+     text-align: center;
+     font-family: 'Quicksand', sans-serif;
+ } 
+
+ #box2>p{
+    text-align: center;
+    color:#1b1057;
+    font-family: 'Quicksand', sans-serif;
+    font-size:38px;
+    font-weight: bolder;
+    position: relative;
+     top: 30px;
+
+ }    
+ #box2>h2{
+    text-align: center;
+    color:#1b1057;
+    font-family: 'Quicksand', sans-serif;
+    font-size:38px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 30px;
+
+ } 
+ #box31,#box51{
+    margin:auto;
+    width:40%;
+    margin-bottom: 4%;
+ }
+ #box31>p,#box31>a,#box51>a,#box51>p{
+    text-align: center;
+    color:#646161;
+    font-family: 'Quicksand', sans-serif;
+    font-size:18px;
+    font-weight: bolder;
+}
+#box31>a,#box51>a{
+    color:#0b0721;
+    position: relative;
+    left:40%;
+}
+ #box4,#box6{
+    width:95%;
+    background-color: white;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ } 
+ #box4>div,#box6>div{
+    padding: 2%;
+ } 
+ #box4>div>img{
+    width:100%;
+    height:100%;
+ } 
+
+ #box411{
+    position: relative;
+    top:3%;
+    z-index:20 ;
+ }
+ #box411>p{
+    text-align: center;
+    color:#646161;
+    font-family: 'Quicksand', sans-serif;
+    font-size:20px;
+    font-weight: bolder;
+    position: relative;
+     top: 10px;
+
+ }    
+ #box411>h2{
+    text-align: center;
+    color:#646161;
+    font-family: 'Quicksand', sans-serif;
+    font-size:20px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 10px;
+
+ } 
+ #box411>h1{
+     font-size:30px;
+     color:#140c43;
+     text-align: center;
+     font-family: 'Quicksand', sans-serif;
+ } 
+ #box411~img{
+    position: relative;
+    bottom: 17%;
+ }
+ #box413{
+   position: relative;
+   margin: auto;
+   width:90%;
+   bottom: 35%;
+ }
+ #box413>p,#box413>a{
+    text-align: center;
+    color:#646161;
+    font-family: 'Quicksand', sans-serif;
+    font-size:18px;
+    font-weight: bolder;
+}
+#box413>a{
+    color:#0b0721;
+    position: relative;
+    left:40%;
+}
