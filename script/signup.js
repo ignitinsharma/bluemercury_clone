@@ -1,4 +1,4 @@
-let signup= document.getElementById('signup')
+let signup= document.getElementById('signupbtn')
 let signup_data= JSON.parse(localStorage.getItem('signup_data'))||[]
 
 signup.onclick= ()=>{

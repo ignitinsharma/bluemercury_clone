@@ -10,7 +10,7 @@
   width: 95%;
   height: 2rem;
   margin: auto;
-  z-index: 2;
+  z-index: 100;
   opacity: 100;
   position: fixed;
   background-color: #FFFFFF;
@@ -49,6 +49,7 @@
 }
 
 #logo {
+
   width: 100%;
   height: 5rem;
   display: flex;
@@ -56,7 +57,7 @@
   align-items: center;
 }
 #logoimg {
-  width: 15rem;
+  width: 20%;
 }
 
 #navbar {
@@ -372,11 +373,4 @@
   display: block;
   margin-top: -1rem;
 
-}
-
-/* ========================================== */
-
-body {
-  height: 100rem;
-  background-color: #ffffff;
 }

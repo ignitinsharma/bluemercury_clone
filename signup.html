@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="./style/signup.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="./style/navbar.css">
+  <link rel="stylesheet" href="./style/footer.css">
 </head>
 <body>
+    <div id="nav"></div>
     <!-- <link href="https://fonts.googleapis.com/css?family='Montserrat', sans-serif
     "> -->
-    <div id="nav_container"></div>
     <h1>CREATE ACCOUNT</h1>
     <p>Complete the form below to create a Bluemercury.com account.</p>
     <div id="input_fields">
@@ -26,7 +31,7 @@
             <span>Earn $10 for every $250 you spend, plus FREE birthday gifts & treatments!</span>
         </label>
         <p>By continuing you agree to Bluemercury's <a href="">Privacy Practices</a></p>
-        <button id="signup">CREATE ACCOUNT</button>
+        <button id="signupbtn">CREATE ACCOUNT</button>
     </div>
     
     <div id="extra">
@@ -37,3 +42,16 @@
 </body>
 <script src="./script/signup.js"></script>
 </html>
+
+
+<script type="module">
+    import {nav} from "./components/nav.js"
+
+     let navbox=document.getElementById('nav');
+     navbox.innerHTML=nav();
+ 
+     import {foot} from "./components/foot.js"
+     
+     let footer=document.getElementById('footer');
+     footer.innerHTML=foot();
+ </script>

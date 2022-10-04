@@ -2,6 +2,11 @@ h1,p{
     color: #12284C;
     text-align: center;
 }
+
+body{
+    
+    margin-top: 11rem;
+}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
 *{
@@ -18,6 +23,7 @@ input,button{
     padding: 12px 14px;
 }
 p{
+    padding: 1rem 1rem;
     color: #657a9b;
 }
 button{

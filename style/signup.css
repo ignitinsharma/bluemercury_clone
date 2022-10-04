@@ -5,6 +5,10 @@ h1,p{
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
+body{
+    
+    margin-top: 11rem;
+}
 *{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -37,12 +41,17 @@ span{
     margin:20px 25px;
     padding: 12px 14px;
 }
-button{
+#signupbtn{
     padding: 12px 14px;
-    color: white;
+    margin-top: 0.4rem;
+    color: #D1E8EE;
     background-color: #12284C;
     border: transparent;
 }
 a:hover{
     cursor: pointer;
+}
+
+#extra{
+    padding-bottom: 1rem;
 }

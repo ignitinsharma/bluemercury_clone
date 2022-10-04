@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
     <link rel="stylesheet" href="./style/signin.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="./style/navbar.css">
+  <link rel="stylesheet" href="./style/footer.css">
 </head>
 <body>
-    <div id="nav_container"></div>
+
+    <div id="nav"></div>
     <h1>LOGIN</h1>
     <p>Please enter your e-mail and password</p>
     <div id="input_fields">
@@ -16,8 +24,20 @@
         <input type="password" id="password" placeholder="Password">
         <button id="login">LOGIN</button>
     </div>
-    <p>Don't have an account? <a href="./signup.html">Create one.</a></p>
+    <p id>Don't have an account? <a href="./signup.html">Create one.</a></p>
     <div id="footer"></div>
 </body>
 <script src="./script/signin.js"></script>
 </html>
+
+<script type="module">
+    import {nav} from "./components/nav.js"
+     console.log(nav);
+     let navbox=document.getElementById('nav');
+     navbox.innerHTML=nav();
+ 
+     import {foot} from "./components/foot.js"
+     
+     let footer=document.getElementById('footer');
+     footer.innerHTML=foot();
+ </script>

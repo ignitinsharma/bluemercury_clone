@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +8,16 @@
     <title>New Arrivals|bluemercury</title>
     <link rel="stylesheet" href="./style/new.css">
     
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    
 </head>
 <body>
+    <div id="nav"></div>
     <div id="main">
         <!-- Side Navbar -->
         <div id="sidenavbar">
@@ -30,7 +39,13 @@
                 <div>
                   <div class="filterCategoryHeader">
                     <div> 
-                      <h3 id="filterType">Type</h3>
+                        <div onclick="filterType()">
+                        <h3 id="filterType">Type</h3>
+                        
+                    </div>
+                    <div id="type_main"></div>
+                        
+                      
                         <div id="TotalFilter"></div>
                     </div>
                         <div id="filterButton" onclick="filterb()"></div>
@@ -93,7 +108,21 @@
             <div id="pagination"></div>
         </div>
     </div>
-    
+
+    <div id="footer"></div>
+   
+   
 </body>
 </html>
 <script src="./script/new.js"></script>
+<script type="module">
+    import {nav} from "./components/nav.js"
+     console.log(nav);
+     let navbox=document.getElementById('nav');
+     navbox.innerHTML=nav();
+ 
+     import {foot} from "./components/foot.js"
+     
+     let footer=document.getElementById('footer');
+     footer.innerHTML=foot();
+ </script>
